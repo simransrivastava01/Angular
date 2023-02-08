@@ -1,0 +1,23 @@
+<div class="container">
+   <h1 style="text-align: center">Sample Form</h1>
+   <form>
+     <div class="form-group">
+       <label>ID</label><br>
+       <input type="text" class="form-control" id="id" required
+         [(ngModel)]="obj.id">
+     </div><br>
+ 
+     <div class="form-group">
+       <label>NAME</label><br>
+       <input type="text" class="form-control" id="name" required
+         [(ngModel)]="obj.name">
+     </div><br>
+ 
+     <div>
+       <label>PHONE NUMBER</label><br>
+       <input type="number" class="form-control" id="phone" required
+         [(ngModel)]="obj.phone">
+     </div><br>
+
+   </form>
+ </div>
