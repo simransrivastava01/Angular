@@ -1,0 +1,30 @@
+<div>
+
+<h3>Lowercase</h3>
+ <p>property value | lowercase is used to write content in small letters {{value | lowercase}} </p>
+ 
+ <h3>Uppercase</h3>
+ <p>property value | uppercase is used to write content in captial letters {{value | uppercase}} </p>
+ 
+ <h3>Slice</h3>
+ <p>property value | slice:start:end is used to slice a piece of data from an string {{value | slice:1:4}}</p> 
+ <i>start</i> and <i>end</i> are the starting and ending position. The index starts from 0. slice checks letters between (start,end-1) position.
+
+ <h3>Dateformat</h3>
+ <p>property value | date:"dateformat" is used to format the date of your choice {{newdate | date:"dd/MM/yyyy"}} </p>
+ 
+ <h3>Currency</h3>
+ <p>property value | currency is used to convert to currency format {{amount | currency}} </p>
+ 
+ <h3>Percent</h3>
+ <p>property value | percent is used to convert to percentage format {{amount | percent}} </p>
+
+ <h3>Percent</h3>
+ <p>property value | percent: 'minIntegerDigits.minFractionDigits-maxFractionDigits' is used to convert to percentage format {{n | percent:'2.2'}} </p>
+ <ul>
+    <li>minIntegerDigits:  minimum number of Integer digits.</li>
+    <li>minFractionDigits: minimum number of fraction digits.</li>
+    <li>maxFractionDigits: maximum number of fraction digits.</li>
+ </ul>
+
+</div>
